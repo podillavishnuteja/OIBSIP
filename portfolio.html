@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">MY PORTFOLIO</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="gradient-text">Vishnu Teja</span></h1>
+                    <p class="hero-subtitle">Full Stack Developer passionate about creating innovative web applications and delivering exceptional user experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary"><i class="fas fa-download"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="image5.png" alt="my dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I'm a passionate Full Stack Developer with experience in modern web technologies. I love turning complex problems into simple, beautiful, and intuitive designs.</p>
+                <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or enjoying a good cup of coffee while brainstorming my next big idea.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION - 8 DIFFERENT PROGRESS BARS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <!-- 1. HTML - Gradient Wave Bar -->
+                <div class="skill-card reveal skill-1" data-width="95%">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 2. CSS - Multi-step Bar -->
+                <div class="skill-card reveal skill-2" data-width="90%">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 3. JavaScript - Dot Pattern Bar -->
+                <div class="skill-card reveal skill-3" data-width="85%">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 4. React - Shiny Glass Bar -->
+                <div class="skill-card reveal skill-4" data-width="87%">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 5. MongoDB - Block Stack Bar -->
+                <div class="skill-card reveal skill-5" data-width="89%">
+                    <i class="fas fa-database"></i>
+                    <h3>MongoDB</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 6. Firebase - Fire Glow Bar -->
+                <div class="skill-card reveal skill-6" data-width="90%">
+                    <i class="fas fa-fire"></i>
+                    <h3>Firebase</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 7. Git - Sharp Edge Bar -->
+                <div class="skill-card reveal skill-7" data-width="93%">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+
+                <!-- 8. DevOps - Thin Pulse Bar -->
+                <div class="skill-card reveal skill-8" data-width="96%">
+                    <i class="fas fa-cogs"></i>
+                    <h3>DevOps</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card reveal">
+                    <img src="image1.jpeg" alt="E-Commerce Platform">
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce application with payment integration and admin dashboard.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <img src="image2.jpg" alt="Task Management App">
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Real-time collaborative task manager built with React and Firebase.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card reveal">
+                    <img src="image3.jpg" alt="Weather Dashboard">
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Modern weather application with animated UI and real-time data.</p>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>Ready to bring your ideas to life? Send me a message!</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p>© 2026 Podilla Vishnu Teja. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
